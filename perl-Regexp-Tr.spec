@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Regexp
-%define	pnam	Tr
+%define		pdir	Regexp
+%define		pnam	Tr
 Summary:	Regexp::Tr - run-time-compiled tr/// objects
 Summary(pl):	Regexp::Tr - obiekty tr/// kompilowane w czasie wykonywania
 Name:		perl-Regexp-Tr
