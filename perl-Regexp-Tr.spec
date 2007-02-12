@@ -6,7 +6,7 @@
 %define		pdir	Regexp
 %define		pnam	Tr
 Summary:	Regexp::Tr - run-time-compiled tr/// objects
-Summary(pl):	Regexp::Tr - obiekty tr/// kompilowane w czasie wykonywania
+Summary(pl.UTF-8):   Regexp::Tr - obiekty tr/// kompilowane w czasie wykonywania
 Name:		perl-Regexp-Tr
 Version:	0.05
 Release:	1
@@ -30,15 +30,15 @@ module solves that problem by compiling the tr/// a single time and
 allowing the user to use it repeatedly and delete it when it it no
 longer useful.
 
-%description -l pl
-Jedna z bardzo przydatnych mo¿liwo¶ci Perla to w miarê tania zamiana
-znaków przez operator tr///. Niestety Perl wymaga, aby tr/// by³o
-znane w czasie kompilacji. Popularne rozwi±zanie to otoczenie przez
-eval wszystkich dynamicznych operacji tr///, ale ma to bardzo du¿y
-narzut czasowy, je¶li jest u¿ywane czêsto (na przyk³ad w pêtli). Ten
-modu³ rozwi±zuje problem poprzez kompilowanie wyra¿enia tr/// jeden
-raz, a nastêpnie pozwolenie u¿ytkownikowi na wielokrotne u¿ywanie go
-i usuniêcie, kiedy przestaje byæ potrzebne.
+%description -l pl.UTF-8
+Jedna z bardzo przydatnych moÅ¼liwoÅ›ci Perla to w miarÄ™ tania zamiana
+znakÃ³w przez operator tr///. Niestety Perl wymaga, aby tr/// byÅ‚o
+znane w czasie kompilacji. Popularne rozwiÄ…zanie to otoczenie przez
+eval wszystkich dynamicznych operacji tr///, ale ma to bardzo duÅ¼y
+narzut czasowy, jeÅ›li jest uÅ¼ywane czÄ™sto (na przykÅ‚ad w pÄ™tli). Ten
+moduÅ‚ rozwiÄ…zuje problem poprzez kompilowanie wyraÅ¼enia tr/// jeden
+raz, a nastÄ™pnie pozwolenie uÅ¼ytkownikowi na wielokrotne uÅ¼ywanie go
+i usuniÄ™cie, kiedy przestaje byÄ‡ potrzebne.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
