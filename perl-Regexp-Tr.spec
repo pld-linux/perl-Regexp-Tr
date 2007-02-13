@@ -6,7 +6,7 @@
 %define		pdir	Regexp
 %define		pnam	Tr
 Summary:	Regexp::Tr - run-time-compiled tr/// objects
-Summary(pl.UTF-8):   Regexp::Tr - obiekty tr/// kompilowane w czasie wykonywania
+Summary(pl.UTF-8):	Regexp::Tr - obiekty tr/// kompilowane w czasie wykonywania
 Name:		perl-Regexp-Tr
 Version:	0.05
 Release:	1
