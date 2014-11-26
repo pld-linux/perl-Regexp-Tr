@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Regexp
 %define		pnam	Tr
+%include	/usr/lib/rpm/macros.perl
 Summary:	Regexp::Tr - run-time-compiled tr/// objects
 Summary(pl.UTF-8):	Regexp::Tr - obiekty tr/// kompilowane w czasie wykonywania
 Name:		perl-Regexp-Tr
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1c01cb427ae8cfeba5d92fb392336510
+URL:		http://search.cpan.org/dist/Regexp-Tr/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -37,8 +38,8 @@ znane w czasie kompilacji. Popularne rozwiązanie to otoczenie przez
 eval wszystkich dynamicznych operacji tr///, ale ma to bardzo duży
 narzut czasowy, jeśli jest używane często (na przykład w pętli). Ten
 moduł rozwiązuje problem poprzez kompilowanie wyrażenia tr/// jeden
-raz, a następnie pozwolenie użytkownikowi na wielokrotne używanie go
-i usunięcie, kiedy przestaje być potrzebne.
+raz, a następnie pozwolenie użytkownikowi na wielokrotne używanie go i
+usunięcie, kiedy przestaje być potrzebne.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
