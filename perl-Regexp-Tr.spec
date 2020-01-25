@@ -4,7 +4,6 @@
 
 %define		pdir	Regexp
 %define		pnam	Tr
-%include	/usr/lib/rpm/macros.perl
 Summary:	Regexp::Tr - run-time-compiled tr/// objects
 Summary(pl.UTF-8):	Regexp::Tr - obiekty tr/// kompilowane w czasie wykonywania
 Name:		perl-Regexp-Tr
