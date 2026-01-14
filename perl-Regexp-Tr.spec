@@ -8,7 +8,7 @@ Summary:	Regexp::Tr - run-time-compiled tr/// objects
 Summary(pl.UTF-8):	Regexp::Tr - obiekty tr/// kompilowane w czasie wykonywania
 Name:		perl-Regexp-Tr
 Version:	0.05
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
